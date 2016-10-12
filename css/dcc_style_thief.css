@@ -1,0 +1,696 @@
+/*
+Dungeon Crawl Classics Thief Characters
+www.oldschooladventures.org
+*/
+
+section {
+	position: relative;
+	width: auto;
+	margin: 200px 200px 100px 100px;
+	border-color:#A9BCF5;
+	background-color: #000000;
+	padding: 10px;
+    border-radius: 25px;
+	opacity:1.0;
+}
+
+
+
+img{
+	max-width: 100%;
+	height:auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.buttons {
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+
+#generatebutton{
+	background-image:url("../images/button_law1.png");
+	width:200px;
+	height:60px;
+	max-width: 100%;
+	display:block;
+	text-decoration:none;
+	outline : none;
+	padding:0px 0px 0px 0px;
+	margin: auto;
+}
+
+#generatebutton:hover{
+	background-image:url("../images/button_law0.png");
+	outline : none;
+	text-decoration: none;
+	
+}
+
+#generatebutton2{
+	background-image:url("../images/button_law2.png");
+	width:200px;
+	height:60px;
+	max-width: 100%;
+	display:block;
+	text-decoration:none;
+	outline : none;
+	padding:0px 0px 0px 0px;
+	margin: auto;
+	
+}
+
+#generatebutton2:hover{
+	background-image:url("../images/button_law0.png");
+	outline : none;
+	
+}
+
+
+#generatebutton3{
+	background-image:url("../images/button_law3.png");
+	width:200px;
+	height:60px;
+	max-width: 100%;
+	display:block;
+	text-decoration:none;
+	outline : none;
+	padding:0px 0px 0px 0px;
+	margin: auto;
+}
+
+#generatebutton3:hover{
+	background-image:url("../images/button_law0.png");
+	outline : none;
+	
+}
+
+#generatebutton4{
+	background-image:url("../images/button_law4.png");
+	width:200px;
+	height:60px;
+	max-width: 100%;
+	display:block;
+	text-decoration:none;
+	outline : none;
+	padding:0px 0px 0px 0px;
+	margin: auto;
+	
+}
+
+#generatebutton4:hover{
+	background-image:url("../images/button_law0.png");
+	outline : none;
+	
+}
+
+
+#generatebutton5{
+	background-image:url("../images/button_law5.png");
+	width:200px;
+	height:60px;
+	max-width: 100%;
+	display:block;
+	text-decoration:none;
+	outline : none;
+	padding:0px 0px 0px 0px;
+	margin: auto;
+	*/
+}
+
+#generatebutton5:hover{
+	background-image:url("../images/button_law0.png");
+	outline : none;
+	text-decoration: none;
+	
+}
+
+#generatebutton6{
+	background-image:url("../images/button_law6.png");
+	width:200px;
+	height:60px;
+	max-width: 100%;
+	display:block;
+	text-decoration:none;
+	outline : none;
+	padding:0px 0px 0px 0px;
+	margin: auto;
+	*/
+	
+}
+
+#generatebutton6:hover{
+	background-image:url("../images/button_law0.png");
+	outline : none;
+	
+}
+
+
+#generatebutton7{
+	background-image:url("../images/button_law7.png");
+	width:200px;
+	height:60px;
+	max-width: 100%;
+	display:block;
+	text-decoration:none;
+	outline : none;
+	padding:0px 0px 0px 0px;
+	margin: auto;
+}
+
+#generatebutton7:hover{
+	background-image:url("../images/button_law0.png");
+	outline : none;
+	
+}
+
+#generatebutton8{
+	background-image:url("../images/button_law8.png");
+	width:200px;
+	height:60px;
+	max-width: 100%;
+	display:block;
+	text-decoration:none;
+	outline : none;
+	padding:0px 0px 0px 0px;
+	margin: auto;
+	
+}
+
+#generatebutton8:hover{
+	background-image:url("../images/button_law0.png");
+	outline : none;
+	
+}
+
+
+#generatebutton9{
+	background-image:url("../images/button_law9.png");
+	width:200px;
+	height:60px;
+	max-width: 100%;
+	display:inline-block;
+	text-decoration:none;
+	outline : none;
+	padding:0px 0px 0px 00px;
+	margin-bottom:0px;
+	margin-top: 0px;
+	/*margin-right:auto;
+	margin-left:auto;
+	outline : none;
+	*/
+	
+}
+
+#generatebutton9:hover{
+	background-image:url("../images/button_law0.png");
+	outline : none;
+	
+}
+
+
+#generatebutton10{
+	background-image:url("../images/button_law10.png");
+	width:200px;
+	height:60px;
+	max-width: 100%;
+	display:inline-block;
+	text-decoration:none;
+	outline : none;
+	padding:0px 0px 0px 00px;
+	margin-bottom:0px;
+	margin-top: 0px;
+	/*margin-right:auto;
+	margin-left:auto;
+	outline : none;
+	*/
+	
+}
+
+#generatebutton10:hover{
+	background-image:url("../images/button_law0.png");
+	outline : none;
+	
+}
+
+
+#generatebutton11{
+	background-image:url("../images/button_0.png");
+	width:200px;
+	height:60px;
+	max-width: 100%;
+	display:block;
+	text-decoration:none;
+	outline : none;
+	padding:0px 0px 0px 00px;
+	margin-bottom:0px;
+	margin-top: 0px;
+	margin-left: auto;
+	margin-right: auto
+	
+	
+}
+
+#generatebutton11:hover{
+	background-image:url("../images/button_01.png");
+	outline : none;
+	
+}
+
+
+#generatebutton_home{
+	background-image:url("../images/button_home1.png");
+	width:400px;
+	height:80px;
+	max-width: 100%;
+	display:block;
+	text-decoration:none;
+	outline : none;
+	padding:0px 0px 0px 0px;
+	margin-bottom:0px;
+	margin-top: 0px;
+	margin-left: auto;
+	margin-right: auto
+	
+	
+}
+
+#generatebutton_home:hover{
+	background-image:url("../images/button_home0.png");
+	outline : none;
+	
+}
+
+#generatebutton0{
+	background-image:url("../images/button_chaos1.png");
+	width:200px;
+	height:60px;
+	max-width: 100%;
+	display:block;
+	text-decoration:none;
+	outline : none;
+	padding:0px 0px 0px 0px;
+	margin: auto;
+}
+
+#generatebutton0:hover{
+	background-image:url("../images/button_chaos0.png");
+	outline : none;
+	text-decoration: none;
+	
+}
+
+#generatebutton02{
+	background-image:url("../images/button_chaos2.png");
+	width:200px;
+	height:60px;
+	max-width: 100%;
+	display:block;
+	text-decoration:none;
+	outline : none;
+	padding:0px 0px 0px 0px;
+	margin: auto;
+	
+}
+
+#generatebutton02:hover{
+	background-image:url("../images/button_chaos0.png");
+	outline : none;
+	
+}
+
+
+#generatebutton03{
+	background-image:url("../images/button_chaos3.png");
+	width:200px;
+	height:60px;
+	max-width: 100%;
+	display:block;
+	text-decoration:none;
+	outline : none;
+	padding:0px 0px 0px 0px;
+	margin: auto;
+}
+
+#generatebutton03:hover{
+	background-image:url("../images/button_chaos0.png");
+	outline : none;
+	
+}
+
+#generatebutton04{
+	background-image:url("../images/button_chaos4.png");
+	width:200px;
+	height:60px;
+	max-width: 100%;
+	display:block;
+	text-decoration:none;
+	outline : none;
+	padding:0px 0px 0px 0px;
+	margin: auto;
+	
+}
+
+#generatebutton04:hover{
+	background-image:url("../images/button_chaos0.png");
+	outline : none;
+	
+}
+
+
+#generatebutton05{
+	background-image:url("../images/button_chaos5.png");
+	width:200px;
+	height:60px;
+	max-width: 100%;
+	display:block;
+	text-decoration:none;
+	outline : none;
+	padding:0px 0px 0px 0px;
+	margin: auto;
+	*/
+}
+
+#generatebutton05:hover{
+	background-image:url("../images/button_chaos0.png");
+	outline : none;
+	text-decoration: none;
+	
+}
+
+#generatebutton06{
+	background-image:url("../images/button_chaos6.png");
+	width:200px;
+	height:60px;
+	max-width: 100%;
+	display:block;
+	text-decoration:none;
+	outline : none;
+	padding:0px 0px 0px 0px;
+	margin: auto;
+	*/
+	
+}
+
+#generatebutton06:hover{
+	background-image:url("../images/button_chaos0.png");
+	outline : none;
+	
+}
+
+
+#generatebutton07{
+	background-image:url("../images/button_chaos7.png");
+	width:200px;
+	height:60px;
+	max-width: 100%;
+	display:block;
+	text-decoration:none;
+	outline : none;
+	padding:0px 0px 0px 0px;
+	margin: auto;
+}
+
+#generatebutton07:hover{
+	background-image:url("../images/button_chaos0.png");
+	outline : none;
+	
+}
+
+#generatebutton08{
+	background-image:url("../images/button_chaos8.png");
+	width:200px;
+	height:60px;
+	max-width: 100%;
+	display:block;
+	text-decoration:none;
+	outline : none;
+	padding:0px 0px 0px 0px;
+	margin: auto;
+	
+}
+
+#generatebutton08:hover{
+	background-image:url("../images/button_chaos0.png");
+	outline : none;
+	
+}
+
+
+#generatebutton09{
+	background-image:url("../images/button_chaos9.png");
+	width:200px;
+	height:60px;
+	max-width: 100%;
+	display:inline-block;
+	text-decoration:none;
+	outline : none;
+	padding:0px 0px 0px 00px;
+	margin-bottom:0px;
+	margin-top: 0px;
+	/*margin-right:auto;
+	margin-left:auto;
+	outline : none;
+	*/
+	
+}
+
+#generatebutton09:hover{
+	background-image:url("../images/button_chaos0.png");
+	outline : none;
+	
+}
+
+
+#generatebutton010{
+	background-image:url("../images/button_chaos10.png");
+	width:200px;
+	height:60px;
+	max-width: 100%;
+	display:inline-block;
+	text-decoration:none;
+	outline : none;
+	padding:0px 0px 0px 00px;
+	margin-bottom:0px;
+	margin-top: 0px;
+	/*margin-right:auto;
+	margin-left:auto;
+	outline : none;
+	*/
+	
+}
+
+#generatebutton010:hover{
+	background-image:url("../images/button_chaos0.png");
+	outline : none;
+	
+}
+
+
+
+#generatebutton_1{
+	background-image:url("../images/button_neutral1.png");
+	width:200px;
+	height:60px;
+	max-width: 100%;
+	display:block;
+	text-decoration:none;
+	outline : none;
+	padding:0px 0px 0px 0px;
+	margin: auto;
+}
+
+#generatebutton_1:hover{
+	background-image:url("../images/button_neutral0.png");
+	outline : none;
+	text-decoration: none;
+	
+}
+
+#generatebutton_2{
+	background-image:url("../images/button_neutral2.png");
+	width:200px;
+	height:60px;
+	max-width: 100%;
+	display:block;
+	text-decoration:none;
+	outline : none;
+	padding:0px 0px 0px 0px;
+	margin: auto;
+	
+}
+
+#generatebutton_2:hover{
+	background-image:url("../images/button_neutral0.png");
+	outline : none;
+	
+}
+
+
+#generatebutton_3{
+	background-image:url("../images/button_neutral3.png");
+	width:200px;
+	height:60px;
+	max-width: 100%;
+	display:block;
+	text-decoration:none;
+	outline : none;
+	padding:0px 0px 0px 0px;
+	margin: auto;
+}
+
+#generatebutton_3:hover{
+	background-image:url("../images/button_neutral0.png");
+	outline : none;
+	
+}
+
+#generatebutton_4{
+	background-image:url("../images/button_neutral4.png");
+	width:200px;
+	height:60px;
+	max-width: 100%;
+	display:block;
+	text-decoration:none;
+	outline : none;
+	padding:0px 0px 0px 0px;
+	margin: auto;
+	
+}
+
+#generatebutton_4:hover{
+	background-image:url("../images/button_neutral0.png");
+	outline : none;
+	
+}
+
+
+#generatebutton_5{
+	background-image:url("../images/button_neutral5.png");
+	width:200px;
+	height:60px;
+	max-width: 100%;
+	display:block;
+	text-decoration:none;
+	outline : none;
+	padding:0px 0px 0px 0px;
+	margin: auto;
+	*/
+}
+
+#generatebutton_5:hover{
+	background-image:url("../images/button_neutral0.png");
+	outline : none;
+	text-decoration: none;
+	
+}
+
+#generatebutton_6{
+	background-image:url("../images/button_neutral6.png");
+	width:200px;
+	height:60px;
+	max-width: 100%;
+	display:block;
+	text-decoration:none;
+	outline : none;
+	padding:0px 0px 0px 0px;
+	margin: auto;
+	*/
+	
+}
+
+#generatebutton_6:hover{
+	background-image:url("../images/button_neutral0.png");
+	outline : none;
+	
+}
+
+
+#generatebutton_7{
+	background-image:url("../images/button_neutral7.png");
+	width:200px;
+	height:60px;
+	max-width: 100%;
+	display:block;
+	text-decoration:none;
+	outline : none;
+	padding:0px 0px 0px 0px;
+	margin: auto;
+}
+
+#generatebutton_7:hover{
+	background-image:url("../images/button_neutral0.png");
+	outline : none;
+	
+}
+
+#generatebutton_8{
+	background-image:url("../images/button_neutral8.png");
+	width:200px;
+	height:60px;
+	max-width: 100%;
+	display:block;
+	text-decoration:none;
+	outline : none;
+	padding:0px 0px 0px 0px;
+	margin: auto;
+	
+}
+
+#generatebutton_8:hover{
+	background-image:url("../images/button_neutral0.png");
+	outline : none;
+	
+}
+
+
+#generatebutton_9{
+	background-image:url("../images/button_neutral9.png");
+	width:200px;
+	height:60px;
+	max-width: 100%;
+	display:inline-block;
+	text-decoration:none;
+	outline : none;
+	padding:0px 0px 0px 00px;
+	margin-bottom:0px;
+	margin-top: 0px;
+	/*margin-right:auto;
+	margin-left:auto;
+	outline : none;
+	*/
+	
+}
+
+#generatebutton_9:hover{
+	background-image:url("../images/button_neutral0.png");
+	outline : none;
+	
+}
+
+
+#generatebutton_10{
+	background-image:url("../images/button_neutral10.png");
+	width:200px;
+	height:60px;
+	max-width: 100%;
+	display:inline-block;
+	text-decoration:none;
+	outline : none;
+	padding:0px 0px 0px 00px;
+	margin-bottom:0px;
+	margin-top: 0px;
+	/*margin-right:auto;
+	margin-left:auto;
+	outline : none;
+	*/
+	
+}
+
+#generatebutton_10:hover{
+	background-image:url("../images/button_neutral0.png");
+	outline : none;
+	
+}

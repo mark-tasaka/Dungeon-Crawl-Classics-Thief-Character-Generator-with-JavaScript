@@ -1,0 +1,377 @@
+/*
+Dungeon Crawl Classics Thief Character Class Random Generator
+Designed by Mark Tasaka 2016
+*/
+
+body{
+	font-family: sans-serif;
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+#character_sheet{
+	width: 950px;
+    height: auto;
+	display: block;
+}
+
+#name{
+    position: absolute;
+    top: 155px;
+    left: 90px;
+	font-size: 1.2em;
+}
+
+#occupation{
+    position: absolute;
+    top: 160px;
+    left: 270px;
+	font-size: 1.1em;
+}
+
+
+#alignment{
+    position: absolute;
+    top: 160px;
+    left: 550px;
+	font-size: 1.1em;
+}
+
+
+#title{
+    position: absolute;
+    top: 250px;
+    left: 250px;
+	font-size: 1.2em;
+}
+
+#level{
+    position: absolute;
+    top: 237px;
+    left: 85px;
+	font-size: 1.5em;
+}
+
+
+
+#luckySignDescription{
+    position: absolute;
+    top: 1035px;
+    left: 120px;
+	font-size: 0.65em;
+	width: 380px;
+}
+
+
+
+#baseArmourClass{
+    position: absolute;
+    top: 380px;
+    left: 192px;
+	font-size: 1.8em;
+}
+
+
+#hitPoints{
+	position: absolute;
+    top: 479px;
+    left: 195px;
+	font-size: 1.5em;
+}
+
+#strength{
+    position:absolute;
+    top: 610px;
+    left: 185px;
+	font-size: 1.6em;
+}
+
+#strengthMod{
+    position:absolute;
+    top: 610px;
+    left: 245px;
+	font-size: 1.6em;
+}
+
+#agility{
+    position:absolute;
+    top: 655px;
+    left: 185px;
+	font-size: 1.6em;
+}
+
+#agilityMod{
+    position:absolute;
+    top: 655px;
+    left: 245px;
+	font-size: 1.6em;
+}
+
+#stamina{
+    position:absolute;
+    top: 700px;
+    left: 185px;
+	font-size: 1.6em;
+}
+
+#staminaMod{
+    position:absolute;
+    top: 700px;
+    left: 245px;
+	font-size: 1.6em;
+}
+
+#personality{
+    position:absolute;
+    top: 745px;
+    left: 185px;
+	font-size: 1.6em;
+}
+
+#personalityMod{
+    position:absolute;
+    top: 745px;
+    left: 245px;
+	font-size: 1.6em;
+}
+
+#intelligence{
+    position:absolute;
+    top: 786px;
+    left: 185px;
+	font-size: 1.6em;
+}
+
+#intelligenceMod{
+    position:absolute;
+    top: 786px;
+    left: 245px;
+	font-size: 1.6em;
+}
+
+
+
+#luck{
+    position:absolute;
+    top: 831px;
+    left: 185px;
+	font-size: 1.6em;
+}
+
+#luckMod{
+    position:absolute;
+    top: 831px;
+    left: 245px;
+	font-size: 1.6em;
+}
+
+
+#languages{
+    position: absolute;
+    top: 1104px;
+    left: 120px;
+	font-size: 0.65em;
+	width: 380px;
+}
+
+
+
+#zeroWeapon{
+    position: absolute;
+    top: 1185px;
+    left: 120px;
+	font-size: 0.65em;
+}
+
+#fumbleDie{
+    position: absolute;
+    top: 520px;
+    left:  400px;
+	font-size: 1.1em;
+}
+
+
+#critDie{
+    position: absolute;
+    top: 450px;
+    left:  340px;
+	font-size: 1.1em
+}
+
+#critTable{
+    position: absolute;
+    top: 440px;
+    left:  480px;
+	font-family: serif;
+	font-size: 1.6em;
+}
+
+
+
+#init{
+    position: absolute;
+    top: 570px;
+    left:  475px;
+	font-size: 1.6em;
+}
+
+
+#speed{
+    position: absolute;
+    top: 615px;
+    left:  470px;
+	font-size: 1.6em;
+}
+
+#melee{
+    position: absolute;
+    top: 656px;
+    left:  475px;
+	font-size: 1.6em;
+}
+
+
+#range{
+    position: absolute;
+    top: 699px;
+    left:  475px;
+	font-size: 1.6em;
+}
+
+
+#ref{
+    position: absolute;
+    top: 744px;
+    left:  475px;
+	font-size: 1.6em;
+}
+
+#fort{
+    position: absolute;
+    top: 788px;
+    left:  475px;
+	font-size: 1.6em;
+}
+
+#will{
+    position: absolute;
+    top: 832px;
+    left:  475px;
+	font-size: 1.6em;
+}
+
+
+#actionDie{
+    position: absolute;
+    top: 370px;
+    left:  330px;
+	font-size: 0.9em;
+}
+
+#luckDie{
+    position: absolute;
+    top: 370px;
+    left:  490px;
+	font-size: 0.9em;
+}
+
+#path{
+    position: absolute;
+    top: 515px;
+    left:  590px;
+	font-size: 0.9em;
+}
+
+
+#backstab{
+    position: absolute;
+    top: 544px;
+    left:  850px;
+	font-size: 1.1em;
+}
+
+
+#sneak{
+    position: absolute;
+    top: 575px;
+    left:  850px;
+	font-size: 1.1em;
+}
+
+#hide{
+    position: absolute;
+    top: 608px;
+    left:  850px;
+	font-size: 1.1em;
+}
+
+#pickPocket{
+    position: absolute;
+    top: 638px;
+    left:  850px;
+	font-size: 1.1em;
+}
+
+#climb{
+    position: absolute;
+    top: 670px;
+    left:  850px;
+	font-size: 1.1em;
+}
+
+#pickLock{
+    position: absolute;
+    top: 702px;
+    left:  850px;
+	font-size: 1.1em;
+}
+
+#findTrap{
+    position: absolute;
+    top: 734px;
+    left:  850px;
+	font-size: 1.1em;
+}
+
+#disableTrap{
+    position: absolute;
+    top: 765px;
+    left:  850px;
+	font-size: 1.1em;
+}
+
+
+#forgeDocument{
+    position: absolute;
+    top: 797px;
+    left:  850px;
+	font-size: 1.1em;
+}
+
+#disguiseSelf{
+    position: absolute;
+    top: 829px;
+    left:  850px;
+	font-size: 1.1em;
+}
+
+#readLanguages{
+    position: absolute;
+    top: 861px;
+    left:  850px;
+	font-size: 1.1em;
+}
+
+#handlePoison{
+    position: absolute;
+    top: 891px;
+    left:  850px;
+	font-size: 1.1em;
+}
+
+#castSpell{
+    position: absolute;
+    top: 927px;
+    left:  840px;
+	font-size: 0.9em;
+}
